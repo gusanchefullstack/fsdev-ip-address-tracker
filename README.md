@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [frontendmentor.io](https://www.frontendmentor.io/profile/gusanchefullstack)
-- Live Site URL: *(added after Vercel deployment)*
+- Live Site URL: [fsdev-ip-address-tracker-dev.vercel.app](https://fsdev-ip-address-tracker-dev.vercel.app)
 
 ---
 
