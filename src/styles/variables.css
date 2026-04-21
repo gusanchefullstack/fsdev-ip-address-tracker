@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --color-header-bg: hsl(231, 62%, 47%);
+  --color-text-primary: hsl(0, 0%, 17%);
+  --color-text-secondary: hsl(0, 0%, 58%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-btn-bg: hsl(0, 0%, 17%);
+  --color-btn-hover: hsl(0, 0%, 30%);
+  --color-card-bg: hsl(0, 0%, 100%);
+  --color-divider: hsl(0, 0%, 90%);
+
+  /* Typography */
+  --font-family: 'Rubik', sans-serif;
+  --font-size-body: 1.125rem;        /* 18px */
+  --font-size-label: 0.6875rem;      /* 11px */
+  --font-size-value: 1.625rem;       /* 26px */
+  --font-size-value-mobile: 1.25rem; /* 20px */
+  --font-size-title: 1.625rem;       /* 26px */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Layout */
+  --header-height-desktop: 17.5rem;  /* 280px */
+  --header-height-mobile: 17.5rem;
+  --card-max-width: 69.375rem;       /* 1110px */
+  --card-overlap: 3.25rem;           /* how much card overlaps header bottom */
+
+  /* Border radius */
+  --radius-sm: 0.9375rem;   /* 15px */
+  --radius-btn: 0 0.9375rem 0.9375rem 0;
+
+  /* Shadows */
+  --shadow-card: 0 2rem 2.5rem rgba(0, 0, 0, 0.1);
+
+  /* Z-index */
+  --z-card: 1000;
+  --z-map: 1;
+}
