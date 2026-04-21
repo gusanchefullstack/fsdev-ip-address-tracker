@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import './MapView.css';
 
 const customIcon = new L.Icon({
-  iconUrl: '/images/icon-location.svg',
+  iconUrl: '/icon-location.svg',
   iconSize: [46, 56],
   iconAnchor: [23, 56],
 });
