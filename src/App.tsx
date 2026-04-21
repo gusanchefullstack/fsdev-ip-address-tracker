@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Header } from './components/Header/Header';
+import { InfoCard } from './components/InfoCard/InfoCard';
 import { MapView } from './components/MapView/MapView';
 import { getIpData } from './services/ipify';
 import type { IpData } from './types/ip';
@@ -30,7 +31,10 @@ export default function App() {
 
   return (
     <>
-      <Header onSearch={fetchIpData} loading={loading} ipData={ipData} />
+      <div className="page-top">
+        <Header onSearch={fetchIpData} loading={loading} />
+        <InfoCard data={ipData} loading={loading} />
+      </div>
       {error && (
         <p className="app__error" role="alert">
           {error}

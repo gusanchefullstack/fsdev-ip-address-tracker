@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: flex-start;
   padding-top: var(--spacing-xl);
-  padding-bottom: calc(var(--card-overlap) + 5rem);
+  padding-bottom: var(--spacing-xl);
 }
 
 .site-header__content {
@@ -32,7 +32,7 @@
 /* Tablet */
 @media (max-width: 900px) and (min-width: 769px) {
   .site-header {
-    padding-bottom: calc(var(--card-overlap) + 3rem);
+    padding-bottom: var(--spacing-xl);
   }
 }
 
@@ -40,9 +40,9 @@
 @media (max-width: 768px) {
   .site-header {
     background-image: url('/images/pattern-bg-mobile.png');
-    min-height: var(--header-height-mobile);
+    min-height: auto;
     padding-top: var(--spacing-lg);
-    padding-bottom: calc(var(--card-overlap) + 1.5rem);
+    padding-bottom: var(--spacing-xl);
   }
 
   .site-header__title {

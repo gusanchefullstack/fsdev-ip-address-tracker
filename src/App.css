@@ -1,3 +1,8 @@
+/* Wraps header + info card so InfoCard can be absolutely positioned on desktop */
+.page-top {
+  position: relative;
+}
+
 .app__main {
   flex: 1;
   display: flex;

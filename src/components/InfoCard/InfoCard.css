@@ -48,9 +48,10 @@
     transform: none;
     bottom: auto;
     width: calc(100% - 3rem);
-    margin: 0 auto;
-    margin-top: -4.5rem;
+    margin: -2rem auto 0;
     grid-template-columns: 1fr;
+    text-align: center;
+    z-index: var(--z-card);
   }
 
   .info-card > .info-item:not(:first-child) {
