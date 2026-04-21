@@ -22,3 +22,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.vercel
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Figma design files (not pushed per project guidelines)
+figma-design/
+design/
+
+# Claude Code files
+.claude/
