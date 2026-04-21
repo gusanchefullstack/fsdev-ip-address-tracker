@@ -29,6 +29,13 @@
   letter-spacing: -0.01em;
 }
 
+/* Tablet */
+@media (max-width: 900px) and (min-width: 769px) {
+  .site-header {
+    padding-bottom: calc(var(--card-overlap) + 3rem);
+  }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .site-header {
