@@ -1,0 +1,11 @@
+.map-wrapper {
+  flex: 1;
+  position: relative;
+  z-index: var(--z-map);
+  min-height: 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
